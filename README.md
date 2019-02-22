@@ -5,6 +5,7 @@ Name: Rochester
 Team Members: Won Kuk Lee (IA)
               Joseph Hur (Designer)
               Shawn Chen (Coder)
+              
 Link: TBA
 
 Domain Description: Students attending the University of Rochester
