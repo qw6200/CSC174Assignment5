@@ -18,4 +18,4 @@ Website IA Description:
       * The Home Page displays the titles of the students as well as their pictures and their links to their own respective pages.
       * Each student's webpage contains information about their background, extracurriculars, and academic information.
   - Choreography
-      * The two students who are both originally from the United States are presented first in the home page. The "odd student out" is             presented last in the home page.
+      * The student from Sicily is presented first in the home page followed by the two students who are both from the United States.
