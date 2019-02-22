@@ -1,11 +1,14 @@
 # CSC174Assignment5
 
 Name: Rochester
+
 Team Members: Won Kuk Lee (IA)
               Joseph Hur (Designer)
               Shawn Chen (Coder)
 Link: TBA
+
 Domain Description: Students attending the University of Rochester
+
 Website IA Description: 
   - Ontology
       * Each student has a background, extracurriculars, and academic info
