@@ -14,7 +14,7 @@
 	</header>
 	<main>
 		<article>
-			<a href="index.php">
+			<a href="giovanni.php">
 				<h1>Giovanni Ilacqua</h1>
 				<img class="profile-picture" src="images/profile_photo.jpg" alt="A profile photo">
 			</a>
@@ -27,7 +27,7 @@
 			</aside>
 		</article>
 		<article>
-			<a href="index.php">
+			<a href="genessis.php">
 				<h1>Genessis Galindo</h1>
 				<img class="profile-picture" src="images/genessis.jpg" alt="Genessis Galindo">
 			</a>
@@ -41,7 +41,7 @@
 			</aside>
 		</article>
 		<article>
-			<a href="index.php">
+			<a href="jack.php">
 				<h1>Jack Dalton</h1>
 				<img class="profile-picture" src="images/jack_clubs.jpg" alt="Jack">
 			</a>
