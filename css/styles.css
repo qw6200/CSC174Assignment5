@@ -1,96 +1,51 @@
-body{
-	background-color: white;
-	color: black;
-    font-family: 'Open Sans Condensed',  Arial, sans-serif;
-    font-size: 18px;
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans+Condensed:300|Oswald');
+/*Joseph Hur
+CSC 174
+
+I primarily used the SMACSS organization technique, while incoporating some of Prof. Kostin's altered rules. 
+I maintained the 5 categories of Base, Layout, Module, State, and Theme, but kept in mind Prof. Kostin's rules about
+Modules and Layout especially; ie Modules should be classes only, and Layout rules should be ID only. One particular
+rule I followed was how to categorize the State section. I included lines that include ":hover" and the like in the State
+section instead of the Base section. I had read conflicting things on this online, but decided to go with putting such 
+lines in the State section. 
+
+The CSS is organized in 5 blocks representing the 5 categories:
+1. Base
+2. Layout
+3. Module
+4. State
+5. Theme
+
+Each section is separated by comment blocks
+*/
+
+/************Base Rules****************/
+article {
+    padding: 12px 72px 12px 72px;
+}
+
+body {
+    background-color: rgb(233, 185, 207);
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+body p {
+    font-size: 22px;
+}
+
+footer {
+    padding: 36px 72px 36px 72px;
 }
 
 
-.container{
-    margin: 0 auto;
-    margin-top: 20px;
-	width: 85%;
-    max-width: 960px;
-    
-    display: grid;
-    grid-template-columns: 270px 1fr 1fr;
+nav {
+    grid-column: 2/4;
+    margin-top: 16px;
 }
 
-.is-current{
-    background-color: black;
-    color: white;
-}
-
-header{
-    grid-column: 1/2;
-}
-
-header a, nav a{
+nav a{
     text-decoration: none;
     color: black;
-}
-
-header a{
-    display: block;
-    position: relative;
-}
-
-header h1 {
-    transform: rotate(-90deg);
-    position: absolute;
-    z-index: 100;
-    top: 100px;
-    left: -132px;
-    letter-spacing: 4.6px;
-}
-
-.profile-picture{
-    margin-left: 40px;
-}
-
-.gene
-
-h1{
-    font-family: 'Staatliches', cursive;
-    font-size: 38px;
-}
-
-h2{
-    font-family: 'Staatliches', cursive;
-}
-
-aside{
-    font-style: italic;
-    grid-column: 2/4;
-    font-size: 24px;
-    margin-left: 30px;
-    padding-top: 205px;
-}
-
-aside ul{
-    margin: 0;
-    margin-left: 10px;
-    padding: 0;
-}
-
-aside li{
-    list-style: none;
-}
-
-article {
-    grid-column: 1/4;
-    margin: 0px 0px;
-}
-
-footer{
-    font-family: 'Open Sans Condensed',  Arial, sans-serif;
-    font-weight: bold;
-    font-size: 16px;
-    grid-column: 1/2;
-}
-
-nav{
-    grid-column: 2/4;
 }
 
 nav ul{
@@ -105,11 +60,145 @@ nav li{
     list-style: none;
     padding: 0;
     margin: 0;
-
     margin-left: 20px;
+    font-size: 22px;
     
 }
 
 nav a{
     padding: 2px 5px;
 }
+
+/************Layout Rules****************/
+
+/************Module Rules****************/
+.banner {
+    display: flex;
+    padding: 0px 68px 0px 68px;
+    margin: 0 auto;
+    background-color: #FF6F61;
+}
+
+.banner h3 {
+    margin-top: 16px;
+    font-size: 24px;
+}
+
+.bannerpart1 {
+    width:600px;
+}
+
+.bannerpart2 {
+    flex-grow: 1;
+}
+
+.topcontainer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 0 auto;
+    border: solid 2px black;
+    border-radius: 28px;
+    padding-left: 72px;
+    padding-bottom: 12px;
+    background-color: rgb(240, 208, 223);
+}
+
+.botcontainer {
+    margin: 0px 72px 12px 72px;
+    border: solid 2px black;
+    border-radius: 28px;
+    background-color: rgb(240, 208, 223);
+    padding-bottom: 12px;
+}
+
+.botarticle {
+    padding-right: 360px;
+}
+
+.sscontainer {
+    margin: 24px 400px 12px 400px;
+    border: solid 2px black;
+    border-radius: 28px;
+    background-color: rgb(240, 208, 223);
+    padding: 0px 0px 12px 0px;
+    text-align: center;
+}
+
+.sscontainer h1 {
+    font-size: 46px;
+    margin-top: 0px;
+    border-bottom: solid 2px black;
+    font-family: 'Courier New', monospace;
+}
+
+.homecontainer {
+    margin: 0px 72px 12px 72px;
+    border: solid 2px black;
+    border-radius: 28px;
+    background-color: rgb(240, 208, 223);
+    padding-bottom: 12px;
+}
+
+.homearticle p {
+    text-align: center;
+    font-size: 28px;
+    margin: 6px 0px 0px 0px;
+}
+
+.homearticle h2 {
+    text-align: center;
+    margin: 6px 0px 0px 0px;
+    font-size: 24px;
+}
+
+.student {
+    padding: 0px 0px 0px 0px;
+    grid-column: 1/3;
+    grid-row: 1;
+    font-family: 'Courier New', monospace;
+    font-size: 36px;
+}
+
+.student h1 {
+    border-bottom: solid 2px black;
+    margin-right: 100px;
+}
+
+.student h3 {
+    margin-top: -24px;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 26px;
+}
+
+.picture {
+    grid-column: 3;
+    grid-row: 1/3;
+    padding: 36px 64px 36px 24px;
+    margin-top: 96px;
+}
+
+.background {
+    padding: 0px 64px 0px 0px;
+    margin-top: 24px;
+    grid-column: 1/3;
+    grid-row: 2;
+}
+
+.background h2 {
+    margin-top: 0px;
+}
+
+/************State Rules****************/
+
+.is-current{
+    background-color: black;
+    color: white;
+}
+
+/************Theme Rules****************/
+
+
+
+
+
+

@@ -3,60 +3,47 @@
 
 <head>
 	<?php include 'includes/head.php';?>
-	<title> Odd Student Out </title>
+	<title> Home | Odd Student Out </title>
 </head>
 
 <body class="container">
-	<header>
-		<a href="index.php">
-			<h1>Lab 02</h1>
-		</a>
-	</header>
-	<main>
-		<article>
-			<a href="giovanni.php">
-				<h1>Giovanni Ilacqua</h1>
-				<img class="profile-picture" src="images/profile_photo.jpg" alt="A profile photo">
-			</a>
-			<aside>
-				<ul>
-					<li>Computer Science Major</li>
-					<li>Qualified Fitness Instructor</li>
-					<li>Graphic Designer</li>
-				</ul>
-			</aside>
-		</article>
-		<article>
-			<a href="genessis.php">
-				<h1>Genessis Galindo</h1>
-				<img class="profile-picture" src="images/genessis.jpg" alt="Genessis Galindo">
-			</a>
 
-			<aside>
-				<ul>
-					<li>Wannabe Master of Web Development</li>
-					<li>Ninja-level Event Planning Skills </li>
-					<li>Undergraduate Student at University of Rochester</li>
-				</ul>
-			</aside>
-		</article>
-		<article>
-			<a href="jack.php">
-				<h1>Jack Dalton</h1>
-				<img class="profile-picture" src="images/jack_clubs.jpg" alt="Jack">
-			</a>
+<header class="banner">
 
-			<aside>
-				<ul>
-					<li>Mechanical Engineering major</li>
-					<li>Computer Science minor</li>
-					<li>Graduating in 2020</li>
-				</ul>
-			</aside>
-		</article>
-	</main>
+<div class="bannerpart1">
+	<h3>Assignment 5 : Odd Student Out</h3>
+</div>
+<div class="bannerpart2">
 	<?php include 'includes/nav.php';?>
+</div>
 
+</header>
+
+<main>
+
+		<div class="sscontainer">
+
+			<article class="ssarticle">
+				<h1>Odd Student Out</h1>
+				<img src="images/profile_photo.jpg" alt="Giovanni profile photo">
+			</article>
+
+		</div>
+
+		<div class="homecontainer">
+
+			<article class="homearticle">
+				<h2>Which one is the Odd One out?</h2>
+				
+				<p> One of these students is not like the others. Try can guess who it is. 
+				<strong>Hint</strong>: Look at their major, and also where they are orignally from.
+				</p>
+			
+			</article>
+
+		</div>
+	
+</main>
 
 	<footer>
 		CSC 174: Advanced Front-end Web Design and Development
