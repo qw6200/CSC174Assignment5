@@ -8,25 +8,26 @@
 
 <body class="container">
 
-<header class="banner">
+     <header class="banner">
 
-<div class="bannerpart1">
-	<h3>Assignment 5 : Odd Student Out</h3>
-</div>
-<div class="bannerpart2">
-	<?php include 'includes/nav.php';?>
-</div>
+        <div class="bannerpart1">
+	       <h3>Assignment 5 : Odd Student Out</h3>
+        </div>
+
+        <div class="bannerpart2">
+	        <?php include 'includes/nav.php';?>
+        </div>
 
 </header>
 
 <main>
 
-		<div class="sscontainer">
+		<div class="slider">
 
-			<article class="ssarticle">
-				<h1>Odd Student Out</h1>
-				<img src="images/profile_photo.jpg" alt="Giovanni profile photo">
-			</article>
+            <img src="images/profile_photo.jpg" alt="Giovanni profile photo">
+            <img src="images/genessis.jpg" alt="Genessis profile photo">
+            <img src="images/jack_clubs.jpg" alt="Jack profile photo">
+
 
 		</div>
 
@@ -45,11 +46,13 @@
 	
 </main>
 
-	<footer>
-		CSC 174: Advanced Front-end Web Design and Development
-	</footer>
+	<?php include 'includes/footer.php';?>
 
 	<?php include 'includes/scripts.php';?>
+	<script src="sss/sss.js"></script>
+    <script>
+    $('.slider').sss();
+    </script>
 </body>
 
 
