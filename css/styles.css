@@ -187,6 +187,19 @@ nav a{
     margin-top: 0px;
 }
 
+.slider {
+    max-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.sliderimage {
+    height: 450px;
+    
+}
+
 /************State Rules****************/
 
 .is-current{
