@@ -21,12 +21,12 @@
 
 <main>
 
-		<div class="sscontainer">
+		<div class="slider">
 
-			<article class="ssarticle">
-				<h1>Odd Student Out</h1>
-				<img src="images/profile_photo.jpg" alt="Giovanni profile photo">
-			</article>
+            <img src="images/profile_photo.jpg" alt="Giovanni profile photo">
+            <img src="images/genessis.jpg" alt="Genessis profile photo">
+            <img src="images/jack_clubs.jpg" alt="Jack profile photo">
+
 
 		</div>
 
@@ -50,6 +50,10 @@
 	</footer>
 
 	<?php include 'includes/scripts.php';?>
+	<script src="sss/sss.js"></script>
+    <script>
+    $('.slider').sss();
+    </script>
 </body>
 
 
