@@ -20,6 +20,10 @@ Each section is separated by comment blocks
 */
 
 /************Base Rules****************/
+html {
+    height: 98.5%;
+}
+
 article {
     padding: 12px 72px 12px 72px;
 }
@@ -41,6 +45,7 @@ footer {
 nav {
     grid-column: 2/4;
     margin-top: 16px;
+    padding-bottom: 10px;
 }
 
 nav a{
@@ -115,21 +120,15 @@ nav a{
     padding-right: 360px;
 }
 
-.sscontainer {
+.slider {
     margin: 24px 400px 12px 400px;
-    border: solid 2px black;
-    border-radius: 28px;
+
+
     background-color: rgb(240, 208, 223);
-    padding: 0px 0px 12px 0px;
     text-align: center;
 }
 
-.sscontainer h1 {
-    font-size: 46px;
-    margin-top: 0px;
-    border-bottom: solid 2px black;
-    font-family: 'Courier New', monospace;
-}
+
 
 .homecontainer {
     margin: 0px 72px 12px 72px;
