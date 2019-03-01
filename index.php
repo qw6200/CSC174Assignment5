@@ -37,7 +37,7 @@
 				<h2>Which one is the Odd One out?</h2>
 				
 				<p> One of these students is not like the others. Try can guess who it is. 
-				<strong>Hint</strong>: Look at their major, and also where they are orignally from.
+				<strong>Hint</strong>: Look at their major, and also where they are orignally from. (Or the styling might give it away...)
 				</p>
 			
 			</article>

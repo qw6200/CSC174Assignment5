@@ -77,6 +77,32 @@ nav a{
 /************Layout Rules****************/
 
 /************Module Rules****************/
+
+.oddbody {
+    background-color: rgb(159, 204, 218);
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.oddbotcontainer {
+    margin: 0px 72px 12px 72px;
+    border: double 6px black;
+    border-radius: 4px;
+    background-color: rgb(195, 227, 235);
+    padding-bottom: 12px;
+}
+
+.oddtopcontainer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 0 auto;
+    border: double 6px black;
+    border-radius: 4px;
+    padding-left: 72px;
+    padding-bottom: 12px;
+    background-color: rgb(195, 227, 235);
+}
+
+
 .banner {
     display: flex;
     padding: 0px 68px 0px 68px;
@@ -122,12 +148,9 @@ nav a{
 
 .slider {
     margin: 24px 400px 12px 400px;
-
-
     background-color: rgb(240, 208, 223);
     text-align: center;
 }
-
 
 
 .homecontainer {

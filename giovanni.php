@@ -6,7 +6,7 @@
 	<title>Giovanni Ilacqua</title>
 </head>
 
-<body>
+<body class="oddbody">
 
 	<header class="banner">
 
@@ -21,7 +21,7 @@
 
 	<main>
 		<article>
-			<div class="topcontainer">
+			<div class="oddtopcontainer">
 				<div class="student">
 					<h1>Giovanni Ilacqua</h1>
 					<h3>Computer Science Major, Qualified Fitness Instructor, and Graphic Designer</h3>
@@ -32,7 +32,7 @@
 				</div>
 
 				<div class="background">
-					<h2> Background </h2>
+					<h2> Where I'm From... </h2>
 					<p>I was born in Sicily in the city of Messina but I moved to Milan when I was 3 years old. After
 						studying
 						Information Technology
@@ -53,10 +53,10 @@
 			</div>
 		</article>
 
-		<div class="botcontainer">
+		<div class="oddbotcontainer">
 
 			<article class="botarticle">
-				<h2>Extra Curriculars</h2>
+				<h2>My Time in America...</h2>
 				<p>I am currently spending my year abroad at Rochester and I have to say that so far it has been one of
 					the
 					greatest experiences
@@ -72,13 +72,6 @@
 					Greek Life by joining
 					Beta Theta Pi, a fraternity in which I was able to find many smart and like minded people.
 				</p>
-			</article>
-
-		</div>
-
-		<div class="botcontainer">
-			<article class="botarticle">
-				<h2>Academic Information</h2>
 				<p>In my Fall semester I took 5 classes: CAS 170 which is a class for international students regarding
 					the
 					American culture,
@@ -101,8 +94,8 @@
 					move to California and create a business there.
 				</p>
 			</article>
-		</div>
 
+		</div>
 	</main>
 
 
